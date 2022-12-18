@@ -14,9 +14,9 @@ i.fa-brands.fa-github.text-white:hover{
 i.fa-brands.fa-twitter.text-white:hover{
     --bs-text-opacity: 1;
     color: blue !important;
-    
-    i.fa-brands.fa-instagram.text-white:hover{
 }
+    
+i.fa-brands.fa-instagram.text-white:hover{
     --bs-text-opacity: 1;
     color: pink !important;
 }
@@ -74,4 +74,12 @@ footer.bg-black{
     width: 100%;
     height: 100%;
     padding: 1rem;
+}
+
+.login{
+    height: 62vh;
+}
+
+.formulario-login{
+    margin-top: 8%;
 }
