@@ -1,53 +1,81 @@
-.bg-color{
-    background-color: #5b6594ee
+body{
+  background-color: #bd85b1ec;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .list-group{
     --bs-list-group-bg: trasparent;
 }
 
-i.fa-brands.fa-github.text-white:hover{
-    color: hsl(0, 0%, 50%) !important;
+i.fa-brands.fa-github.fa-xl.text-white:hover{
+    color: hsl(0, 0%, 100%) !important;
 }
 
-i.fa-brands.fa-twitter.text-white:hover{
+i.fa-brands.fa-twitter.fa-xl.text-white:hover{
     color: #87ceeb !important;
 }
     
-i.fa-brands.fa-instagram.text-white:hover{
+i.fa-brands.fa-instagram.fa-xl.text-white:hover{
     color: #d87093 !important;
 }
 
+i.fa-solid.fa-xl.fa-user-lock:hover{
+    color: hsl(244, 77%, 59%) !important;
+}
+
+i.fa-regular.fa-xl.fa-user:hover{
+    color: hsl(244, 77%, 59%)
+}
+
+.container.text-center{
+    margin-top: 2rem;
+
+}
+
 section.banner{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), 
-    url(../imagenes/banner.jpg);
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -msn-background-size: cover;
+    margin: auto;
     background-repeat: no-repeat;
-    align-items: center;
-}
-
-h1.intro{
-    padding-top: 15%;
-    font-size: 1.5rem;
-}
-
-h2.intro{
-    font-size: 5rem;
-}
-
-h3.intro{
-    font-size: 3rem;
+    background-size: 100%;
 }
 
 footer.bg-black{
     width: 100%;
     height: 100%;
     padding: 1rem;
+}
+
+body.Dashboard{
+    background-color: #ffffff;
+}
+
+section.Dashboard{
+    height: 100%;
+    margin-top: 2rem;
+    background-size: 100%;
+    background-color: #fff;
+}
+
+.btn.btn-primary{
+    border: 0px;
+    background-color: #bd85b1ec;
+    margin-top: 3.5rem;
+    z-index: 0;
+    font-weight: 700;
+}
+
+.btn.btn-primary:hover{
+    color: #ec92b0;
+    box-shadow: rgb(206, 173, 173);
+}
+
+.list-group-item:hover{
+    background-color: #bd85b1ec;
+    color: #f5e6ea;
+    box-shadow: rgb(202, 122, 202);
+}
+
+.buttom{
+    padding: 25%;
 }
