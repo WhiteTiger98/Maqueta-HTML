@@ -1,24 +1,21 @@
 .bg-color{
-    background-color: rgba(91, 101, 148, 0.932)
+    background-color: #5b6594ee
 }
 
 .list-group{
-    --bs-list-group-bg:trasparent;
+    --bs-list-group-bg: trasparent;
 }
 
 i.fa-brands.fa-github.text-white:hover{
-    --bs-text-opacity: 1;
-    color: gray !important;
+    color: hsl(0, 0%, 50%) !important;
 }
 
 i.fa-brands.fa-twitter.text-white:hover{
-    --bs-text-opacity: 1;
-    color: skyblue !important;
+    color: #87ceeb !important;
 }
     
 i.fa-brands.fa-instagram.text-white:hover{
-    --bs-text-opacity: 1;
-    color: palevioletred !important;
+    color: #d87093 !important;
 }
 
 section.banner{
