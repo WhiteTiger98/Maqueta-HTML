@@ -60,9 +60,6 @@ section.Dashboard{
 .btn.btn-primary{
     border: 0px;
     background-color: #bd85b1ec;
-    margin-top: 3.5rem;
-    z-index: 0;
-    font-weight: 700;
 }
 
 .btn.btn-primary:hover{
@@ -76,6 +73,3 @@ section.Dashboard{
     box-shadow: rgb(202, 122, 202);
 }
 
-.buttom{
-    padding: 25%;
-}

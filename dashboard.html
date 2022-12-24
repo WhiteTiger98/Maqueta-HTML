@@ -32,61 +32,91 @@
     <div class="container-fluid text-center">
         <div class="row">
             <!--Sidebard-->
-          <div class="col-2">
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action">Home</a>
-              
-                <a href="#" class="list-group-item list-group-item-action">Perfil</a>
-                <a href="#" class="list-group-item list-group-item-action">Experiencia</a>
-                <a href="#" class="list-group-item list-group-item-action">Estudios</a>
-                <a href="#" class="list-group-item list-group-item-action">Habilidades</a>
-                <a href="#" class="list-group-item list-group-item-action">Proyectos</a>
+              <div class="col-2">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Perfil</a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-experience" role="tab" aria-controls="list-experience">Experiencia</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-studies" role="tab" aria-controls="list-studies">Estudios</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-skills" role="tab" aria-controls="list-skills">Habilidades</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-proyects" role="tab" aria-controls="list-proyects">Proyectos</a>
+                </div>
               </div>
-          </div>
-          <!--Body-->
-        <div class="col-9">
-            <h4 class="text-center">Perfil</h4>
+              <div class="col-9">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    <h4 class="text-center">Perfil</h4>
               <div class="mb-3">
                 <label for="formFileSm" class="form-label d-flex p-2">Foto</label>
                 <input class="form-control form-control-sm" id="formFileSm" type="file">
+              <div class="col-1">
+                <section class="buttom">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                </section>
+              </div>
               </div>
               <div class="mb-3">
                 <label for="formFileSm" class="form-label d-flex p-2">Nombre y Apellido</label>
                 <input class="form-control form-control-sm" id="formFileSm" type="text">
+                <div class="col-1">
+                  <section class="buttom">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                  </section>
+                </div>
               </div>
               <div class="mb-3">
                 <label for="formFileSm" class="form-label d-flex p-2">Acerca de mi</label>
                 <input class="form-control form-control-sm" id="formFileSm" type="text">
+                <div class="col-1">
+                  <section class="buttom">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                  </section>
+                </div>
               </div>
-              <h4 class="text-center">Experiencia</h4>
+            </div>
+                  <div class="tab-pane fade" id="list-experience" role="tabpanel" aria-labelledby="list-experience-list">
+                    <h4 class="text-center">Experiencia</h4>
               <div class="mb-3">
                 <label for="formFileSm" class="form-label d-flex p-2">Logo de empresa</label>
                 <input class="form-control form-control-sm" id="formFileSm" type="file">
+                <div class="col-1">
+                  <section class="buttom">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                  </section>
+                </div>
               </div>
               <div class="mb-3">
                 <label for="formFileSm" class="form-label d-flex p-2">Titulo del puesto</label>
                 <input class="form-control form-control-sm" id="formFileSm" type="text">
+                <div class="col-1">
+                  <section class="buttom">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                  </section>
+                </div>
               </div>
               <div class="mb-3">
                 <label for="formFileSm" class="form-label d-flex p-2">Periodo</label>
                 <input class="form-control form-control-sm" id="formFileSm" type="text">
+                <div class="col-1">
+                  <section class="buttom">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                  </section>
+                </div>
               </div>
               <div class="mb-3">
                 <label for="formFileSm" class="form-label d-flex p-2">Descripcion del puesto</label>
                 <input class="form-control form-control-sm" id="formFileSm" type="text">
+                <div class="col-1">
+                  <section class="buttom">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                  </section>
+                </div>
               </div>
-        </div>
-        <div class="col-1">
-        <section class="buttom">
-            <button type="button" class="btn btn-primary">Guardar</button>
-            <button type="button" class="btn btn-primary">Guardar</button>
-            <button type="button" class="btn btn-primary">Guardar</button>
-        </section>
-        <section class="buttom">
-            <button type="button" class="btn btn-primary">Guardar</button>
-            <button type="button" class="btn btn-primary">Guardar</button>
-            <button type="button" class="btn btn-primary">Guardar</button>
-        </section>
+                  </div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                </div>
+            </div>
         </div>
       </div>
     </section>
