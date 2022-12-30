@@ -4,7 +4,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+/*Redes*/
 .list-group{
     --bs-list-group-bg: trasparent;
     align-items: center;
@@ -37,13 +37,13 @@ i.fa-solid.fa-xl.fa-user-lock:hover{
 h1, h3{
     display: inline;
 }
-
+/*Banner*/
 .banner{
     margin: auto;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+/*Foto de perfil*/
 .perfil{
     height: auto;
     width: 15rem;
@@ -64,7 +64,7 @@ h1, h3{
 .container{
     width: auto;
 }
-
+/*Proyectos*/
 .parte1,.parte2{
     display: inline-block;
     text-align: justify;
