@@ -54,9 +54,20 @@ h1, h3{
     align-items: center;
 }
 
-footer.bg-black{
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
+.container{
+    width: auto;
 }
+
+.parte1,.parte2{
+    display: inline-block;
+    text-align: justify;
+}
+
+.img-proyecto{
+    margin-top: auto;
+    height: 50%;
+    box-shadow: 10px 10px 30px ;
+}
+
+
 
