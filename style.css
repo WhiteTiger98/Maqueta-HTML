@@ -47,7 +47,7 @@ h1, h3{
 .perfil{
     height: auto;
     width: 15rem;
-    margin-top: -8.5rem;
+    margin-top: -7.5rem;
 }
 
 .progress{
@@ -83,3 +83,7 @@ h1, h3{
     padding: 1rem;
 }
 
+.boton-editar{
+    background-color: #e7789d;
+    border: #d87093;
+}
